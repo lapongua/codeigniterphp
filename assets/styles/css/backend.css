@@ -1,0 +1,192 @@
+/*html,body{ 
+    color: @gris_letra; font-weight: 400; font-size: 14px; line-height: 18px; font-family: Arial, Verdana, sans-serif; letter-spacing: normal;
+}*/
+
+/*
+* COMUNES
+*/
+
+body > .container{width: 100%; padding: 0 20px;}
+.bottom { position: absolute; bottom: 0;}
+.relative{position: relative;}
+.glyphicons-xs{font-size: 0.8em;}
+
+
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 30px;    
+}
+.right-inner-addon i {
+    position: absolute;
+    right: 20px;
+    top:25px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+.form-control {
+    padding-left: 20px;
+}
+
+.form-control + .glyphicon {
+    position: absolute;
+    left: 0px;
+    padding: 8px 27px;
+}
+.fa-star{color:#e4e405;}
+.badge{background-color: #00A2F3;}
+
+table h2,h3,h4,h5{margin: 0;}
+table h2 a{font-size: 19px; line-height: 23px; color: #00a2f3;}
+table h2 a:hover{color: #00a2f3;}
+table h3{font-size: 15px; line-height: 19px;color: #17B570;}
+table h3{color: #17B570;}
+table h4,h5{font-size: 13px;}
+
+.displaynone{display:none;}
+
+
+/* antes de registrarte */
+.formreg{ padding:114px 0 0;}
+.formreg h1 a{ background: url("../images/logo.png") no-repeat left top; text-indent: -1000em; width: 179px; height: 32px; display: block; margin-right: 10px;}
+.formreg h2{margin-top: 0;}
+.formreg a{text-decoration: underline;}
+
+.wrapper-form-reg { padding: 26px 24px 20px; box-shadow: 0 4px 10px -1px rgba(200, 200, 200, 0.7);}
+
+#searchclear {
+    color: #ccc;
+    display: none;
+}
+.glyphicon-remove-circle{
+    cursor: pointer;
+}
+
+#listado-autores th.header {
+    cursor: pointer; 
+}
+th.headerSortUp { 
+    
+} 
+th.headerSortDown { 
+   
+}
+/* desactivar enlaces */
+a.disabled{ cursor: default !important;pointer-events: none;}
+a.disabled span{opacity: 0.5;}
+
+/**********/
+/* navbar */
+/**********/
+
+#navbar .wrapper-navbar{background: #00a2f3;}
+#navbar .wrapper-navbar a{color: #fff;}
+#navbar.navbar-left a span{ background: url("../images/logo-cms.png") no-repeat left top; display: block; text-indent: -1000em; height: 20px; width: 112px; margin: 0 10px 0 0;}
+#navbar .navbar-right p{color:#70CFFF;}
+#navbar .navbar-right p a.logout{margin: 0 0 0 5px;}
+#navbar .navbar-right p a.logout:hover{color: #00F5CC;}
+#subnavbar{clear:both;}
+#subnavbar .active,a:hover{color:#00a2f3;}
+#subnavbar span{display: block; width: auto; text-align: center}
+#subnavbar .glyphicon,.fa{font-size: 25px;}
+#subnavbar li.divider{border-right: 1px solid #E7E7E7;}
+#subnavbar.in span{font-size: 14px; float: left; text-align: left; margin-right: 5px; line-height: 18px;}
+
+.wrapper-title{padding: 150px 0 0; border-bottom: 1px dotted #E2E2E2;}
+.wrapper-title h1{margin: 0;}
+.wrapper-title h1 .glyphicon,.wrapper-title h1 .fa{margin-right: 15px;}
+.wrapper-title a.add-item{margin: 20px 0 0;}
+.wrapper-title span.badge{ margin: 0; font-size: 18px;}
+
+.breadcrumb{ background: #fff;}
+.form-search{width: auto;}
+
+
+.puntuacion{display: block;}
+
+
+
+#listado-libros  .editorial{margin:5px 0 10px;}
+
+.wrapper-pager{margin:20px 0;}
+.wrapper-pager .pagination,p{margin: 0;}
+
+
+
+/***    DASHBOARD    ***/
+/***    Resumen     +***/
+
+#resumen,#r-last-orders{
+    margin-top: 150px;
+}
+
+
+#resumen .panel-body{position:relative;}
+#resumen .panel-body img{margin-right: 15px;}
+#resumen .panel-body #sales .legendborder{border:1px solid #ccc;padding:1px;}
+#resumen .panel-body #sales .legendborder .legendColorBox{width:4px;height:0;border:5px solid #00c73d;overflow:hidden}
+#resumen .panel-body #sales .nopagados .legendColorBox{border:5px solid #ff0000;}
+
+
+.panel-heading span{margin: 0 5px 0 0;}
+
+/***    DASHBOARD    ***/
+/**** ultimos libros *****/
+#r-last-books .panel-body li{width: 130px; height:280px; padding:0; margin:0 20px 0 0;}
+#r-last-books .panel-body li h2{ color: #17B570; font-size: 15px; font-family: 'Noto Sans', sans-serif;letter-spacing: -1px; margin: 5px 0;}
+#r-last-books .panel-body li h3{ font-size: 13px; margin: 0;}
+#r-last-books .panel-body li h3 span{display: block;}
+
+/***    DASHBOARD    ***/
+/**** ultimos pedidos***/
+table h2{color: #00a2f3; font-size: 15px; font-family: 'Noto Sans', sans-serif;letter-spacing: -1px; margin: 5px 0;}
+
+#r-last-orders .panel-body td.idpedido span{display: block;}
+#r-last-orders .panel-body td.idpedido img{width: 30px;}
+td.estadopedido{ text-transform: uppercase; font-weight:700;}
+td.estadopedido .pagado{color:#17B570;}
+td.estadopedido .nopagado{color:#ff0000;}
+
+
+/******    DASHBOARD    ******/
+/**** ultimos comentarios ***/
+#r-last-comments table h2 span,#listado-comentarios h2 span.comenta-text{ font-style: italic; color:#262626;}
+#r-last-comments table h2 span a, #listado-comentarios h2 span.comenta-text a{ font-style:normal; text-decoration: underline;}
+
+/******    FICHA DEL LIBRO    ******/
+#edit-book .imagenes-subidas img{margin-right: 15px;}
+#edit-book .fl-comments,#edit-book .fl-stars{font-size: 22px; padding: 25px 0 0;}
+#edit-book small{font-size: 60%;}
+
+/**** footer ***/
+footer{padding:10px 30px; margin:20px 0 0; background: #F8F8F8; border-top: 1px solid #E7E7E7;}
+
+/**** comentarios ****/
+.comentarioValidado span{cursor:pointer; color: #428BCA;}
+
+/*
+* Pedidos
+*/
+.clickableRow
+{
+    cursor:pointer;
+}
+
+#resumen-pedidos{
+             background: #F8F8F8;
+         }
+         #pedidos-col-left form{
+             margin-bottom: 20px;
+         }
+         #pedidos-col-left #resumen-pedidos
+         {
+             width: 50%; margin: 40px auto 0; padding-top: 20px; padding-bottom: 20px; font-size: 20px;
+         }
+         #pedidos-col-left #resumen-pedidos strong
+         {
+             font-size: 15px;
+         }
+ #listado-pedidos tr img{margin-right: 5px;}
+ .sumaPedido{color:#00a2f3; font-weight: 700; font-size: 1.2em;}

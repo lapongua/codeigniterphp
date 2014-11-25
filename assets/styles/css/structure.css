@@ -1,0 +1,25 @@
+html,body{ 
+    color: #8c8c8c; font-weight: 400; font-size: 14px; line-height: 18px; font-family: Arial, Verdana, sans-serif; letter-spacing: normal; background:#EEECED url('../images/bg.jpg') repeat-y center top;
+}
+
+.page{width:960px; margin:0 auto; padding: 5px 0 0;}
+header{position: relative; margin-bottom: 20px;}
+aside{width:205px;float:left;}
+.aside-right{width: 240px; float: right; }
+section{width:720px;float:right;}
+section.list-author{ float: none; width: auto;}
+section.ficha-libro{float: left;}
+footer{margin-top: 25px; clear:both;}
+
+
+
+
+
+
+
+
+
+
+
+
+

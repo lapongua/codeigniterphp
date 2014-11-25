@@ -1,0 +1,338 @@
+
+/*Titulares */
+h1,h2,h3{ font-family: 'Noto Sans', sans-serif;letter-spacing: -1px; margin:0 0 20px; font-weight: 400;}
+
+/* Enlaces */
+a{ color:#00a2f3; text-decoration: underline; font-family: 'Noto Sans', sans-serif;letter-spacing: -1px; cursor: pointer;}
+a:hover{text-decoration: underline;}
+
+h1 a, h2 a, h3 a, h4 a{text-decoration: none;}
+
+h2,h1{color:#17B570;font-size: 24px;line-height: 22px;border-bottom: 1px solid #C7C9D0; padding-bottom: 5px; font-weight: 700;}
+h3{color:#17B570;font-size: 16px;border-bottom: 1px solid #C7C9D0; padding-bottom: 5px; font-weight: 700;}
+h4{color:#262626;font-size: 14px; margin-bottom: 5px; font-family: Arial, Verdana, sans-serif; letter-spacing: normal; font-weight: 400;}
+
+/* Textos */
+p{margin:0 0 20px; text-align: justify;}
+
+/* Imágenes */
+img{}
+
+/* Listados */
+ul{}
+ul li{}
+
+/* Tablas */
+table{width: 100%;}
+
+.caret {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #898686;
+    display: inline-block;
+}
+.a-right{text-align: right;}
+.clearboth{clear: both;}
+.f-left{float: left;}
+.f-right{float:right;}
+.margin-right{margin-right: 20px;}
+.margin-bottom{margin-bottom: 20px;}
+.mbless{margin-bottom: 10px;}
+.cplus:after
+{
+    content: "+";
+}
+.marginZero{margin:0!important;}
+/*------------------------
+* CABECERA 
+*-------------------------
+*/
+#logo{float:left; margin-top: 20px; border: none; padding: 0;}
+#logo a{ background: url("../images/logo.png") no-repeat left top; width:179px; height:39px; display: block; text-indent: -1000em;}
+
+#header-user-info{float: right;}
+#header-user-info a.userlink{color: #8c8c8c; text-decoration: none; line-height: 17px;}
+#header-user-info div{float:left;}
+#user-access .welcome a.account{margin-right: 10px; color: #00a2f3;}
+#user-access{position:relative;}
+#user-access a:hover{text-decoration: underline;}
+#user-access .caret{padding: 0 0 2px; margin: 0 3px;}
+#user-access #user-login-wrapper .dropdown-menu{position: absolute; top: 18px; left: 0;z-index: 100; background: #fff; padding: 10px 15px; border: 1px solid #C7C9D0;}
+#user-access .error{font-size: 10px; float: none;}
+#currency{font-size: 16px;}
+#currency span{margin: 0 0 3px 3px;}
+
+/* BUSCADOR PRINCIPAL */
+#header-search{margin: 27px 0 0 100px; float: left;}
+#header-search #searchweb{ width: 395px;float: left;}
+#header-search button{background: #f3f3f3 url("../images/lupa.png") no-repeat center top; text-indent: -1000em; width: 25px;}
+#header-search button:hover{background-position: center bottom;}
+/* FILTRO DE PRECIOS SLIDER */
+#desplazador2.ui-slider-horizontal{ height: 0.4em; width: 30%; margin-bottom: 20px!important;}
+#desplazador2.ui-slider .ui-slider-handle{ height: 0.8em; width: 0.8em;}
+/* CARRITO */
+#shopping-cart{background: url("../images/carrito.png") no-repeat left center; float:right;clear: right;}
+#shopping-cart a.cesta{text-decoration: none; width: 110px; height: 70px; display: block; position: relative;}
+#shopping-cart a.cesta:hover .shopping-cart-text{color:#262626;}
+#shopping-cart a.cesta .caret{position: absolute; right:0; bottom:8px;}
+#shopping-cart a.cesta .shopping-cart-text{font-size: 16px; color: #898686; display: block; position: absolute; bottom: 3px; right: 13px;}
+#shopping-cart a.cesta .shopping-cart-total{font-size: 24px; font-family: 'Noto Sans', sans-serif;letter-spacing: -1px; font-weight: 700; color: #262626; position: absolute; top:30px; left:50px;}
+#listado_cesta{ position: absolute; right: 0; top:85px; z-index: 1000; background: #fff; width: 240px; border: 1px solid #ccc; padding: 7px;}
+#listado_cesta li{list-style: none;}
+.shopping-cart-product .image{float: left; text-align: center; width: 40px; margin: 0 5px 0 0;}
+.shopping-cart-product .info { color: #666666; font-size: 11px; float: left; width: 193px; padding: 3px 0 0;}
+.shopping-cart-product .info .title{color: #262626; display: block; font-size: 14px;}
+.shopping-cart-product .info .delete-libro{font-size: 18px;float:right;}
+
+
+/* MENU PRINCIPAL*/
+#nav{clear:both;}
+#nav ul{text-align: center;}
+#nav ul li{display:inline-block; margin-left: 20px; padding-left: 20px; border-left: 1px solid #898686;}
+#nav ul li a{font-size: 24px; text-decoration: none;color: #898686;}
+#nav ul li a:hover{color:#262626;}
+#nav ul li.active a{color: #262626;}
+#nav ul li.first{margin: 0; padding: 0; border: 0;}
+/*----------------------------
+* BREADCRUMB
+*---------------------------*/
+.breadcrumbs { font-size: 12px; line-height: 1.25; margin: 0 0 13px;}
+.breadcrumbs li{display: inline;}
+/*----------------------------
+* CONTENIDO
+*---------------------------*/
+/*slider home*/
+
+#slider-home{position: relative;}
+#slider-home a h2{border: none; font-family: Arial, Verdana, sans-serif; color:#000; font-weight: 700; font-size: 55px; text-transform: uppercase; line-height: 41px;}
+#slider-home a h2 span {font-weight: 400; color: #d20910;}
+#slider-home a .text-slider h3{color:#000; font-size: 14px; border: none; font-weight: 400; padding: 0;}
+#slider-home a .text-slider h3 span{color: #d20910;} 
+#slider-home a .text-slider h4{color:#fff; display: block; font-weight: 700;}
+#slider-home a .text-slider h4 span{font-size: 35px; display: block;}
+            
+#slider-home a.slider01 h2{top:83px; left: 80px; position: absolute;}
+#slider-home a.slider01 h2 span{display: block;}       
+#slider-home a.slider01 .text-slider{position: absolute; top: 40px; right: 153px; width: 230px;}
+#slider-home a.slider01 .text-slider h3 span{color: #d20910;}
+#slider-home a.slider01 .text-slider h3 span.solo{font-size: 47px; display: block; line-height: 37px;}
+#slider-home a.slider01 .text-slider h3 span.ofertas{font-weight: 700; font-size: 21px; display: block;}
+#slider-home a.slider01 .text-slider h4{position: absolute; width: 68px; top: 86px; margin: 0; text-align: center;}
+#slider-home a.slider01 .text-slider h4 span{ margin: 5px 0 8px;}           
+#slider-home a.slider01 .text-slider h4.vie{left:-3px;}
+#slider-home a.slider01 .text-slider h4.sab{left:83px;}
+#slider-home a.slider01 .text-slider h4.dom{left:169px;}
+
+#slider-home a.slider02{ background:#f6f6f6; height:205px; display:block; text-decoration:none;}
+#slider-home a.slider02 h2{ position:absolute; left:132px; top:33px;}
+#slider-home a.slider02 .text-slider h3{ position: absolute; left:153px; top:84px; font-size: 25px;}
+#slider-home a.slider02 .text-slider h3 span{color: #d20910;}
+#slider-home a.slider02 h4{ position:absolute; bottom:50px; right: 125px; padding:3px 9px; background:#000;.rounded-corners(9px);}
+
+
+/*----------------------------
+/* LIBROS DESTACADOS EN HOME 
+*---------------------------*/
+ .wrapper-row{margin-bottom: 25px;} 
+ .wrapper-row .product{width: 130px; float: left; height: 320px; margin-right: 17px;}
+ .wrapper-row .product .wrapper-thumb{display:table-cell;vertical-align:bottom; height: 207px;}
+ .wrapper-row .product .wrapper-thumb img{vertical-align: bottom;}
+ .wrapper-row .product h3{font-size:14px; min-height: 60px;margin:3px 0 0; border:none; font-weight: 400;padding: 0;}
+ .wrapper-row .product h3 a{color:#262626; font-family: Arial, Verdana, sans-serif; letter-spacing: normal;}
+ .wrapper-row .product h3 a:hover{text-decoration: none;}
+ .wrapper-row .product h3 span{color:#8c8c8c; display: block;}
+ .wrapper-row .product .content-price{float: left;margin: 18px 0 0;}
+ .wrapper-row .product .btn{float:right;}
+ .wrapper-row .product .price-box{ width: 130px;}
+ .wrapper-row  .last-product{margin-right: 0;}
+ 
+.content-price p{margin: 0; font-family: 'Noto Sans', sans-serif;letter-spacing: -1px;}
+.content-price .price{color:#262626; font-weight: 700; font-size: 16px; }
+.content-price  .old-price{text-decoration: line-through; color: #9b9b9b; font-size: 13px;}
+
+.btn{background: #00a2f3;color:#fff; font-weight: 700;font-size: 15px;padding: 9px 7px; text-decoration: none; display: block;text-align: center;}
+.btn:hover{color:#fff;background: #0072f3; text-decoration: none;}
+
+
+/*----------------------------
+* SECCION LIBROS: LISTADO DE LIBROS
+*---------------------------*/
+.product-list{border-bottom:0.08em solid rgba(0, 0, 0, 0.05); padding-bottom: 20px; margin-bottom: 20px;}
+.product-list h3{margin-bottom: 5px; border:none; font-weight: 400; padding: 0;}
+.product-list h3 a{ color:#262626; font-size: 18px;}
+.product-list h3 a:hvoer{text-decoration: none;}
+.product-list h3 span{ display: block; font-size: 14px; color: #8c8c8c;}
+.product-list .price-box{float: right;}
+.product-list .price-box .content-price p{text-align: right;}
+.product-list .price-box .content-price .price{font-size: 22px;margin-bottom: 5px;}
+.product-list .price-box .content-price .old-price{font-size: 15px;}
+.product-list .price-box .btn{font-size: 18px;}
+.product-list a.wrapper-thumb{ float: left;}
+
+.toolbar-top p{background: #f9f9f9; padding: 4px 8px; font-size: 13px;}
+.toolbar-top p span{font-weight: 700;}
+.toolbar-top p .sorter{float:right;}
+.toolbar-top p a{font-weight: 400; text-decoration: none;}
+.toolbar-top p a:hover{text-decoration: underline;}
+.toolbar-top p a.active{text-decoration: underline;}
+.toolbar ol{display: inline;}
+.toolbar li{display: inline; margin: 0 2px;}
+.toolbar-bottom .pages{text-align: center;}
+
+/*----------------------------
+* FICHA DEL LIBRO
+*---------------------------*/
+
+.contenido-ficha-left{width:240px;}
+.contenido-ficha-center{margin: 0 0 0 34px; width: 405px;}
+.contenido-ficha-center h1{ margin-bottom: 5px; }
+.contenido-ficha-center  h2{ color: #8c8c8c; font-size: 14px; padding: 0; margin: 0;border: none;}
+.contenido-ficha-center  h2 span{font-weight: 400;}
+.contenido-ficha-center  h2 .editorial{text-transform: uppercase; margin-right: 5px;}
+.contenido-ficha-center  h2 .isbn{margin-right: 5px;}
+.contenido-ficha-center  h2 .separador{margin: 0 5px;}
+
+/* tabs */
+#tabs{ margin-bottom:20px;}
+#tabs .ui-tabs-panel{ font-size: 13px; text-align: justify; color: #8C8C8C;}
+
+/*galeria*/
+#product-gallery img{width: 240px;}
+#product-gallery-thumbs{ margin: 0 0 33px;}
+#product-gallery-thumbs li{display: inline; list-style: none;}
+#product-gallery-thumbs img, .row-leidos img{width: 57px;}
+
+
+/*los más leidos*/
+.row-leidos{margin-bottom: 10px;}
+.row-leidos h4 span{display:block;color: #8c8c8c; font-size: 12px;}
+.row-leidos a img{float:left; margin: 0 12px 0 0;}
+.row-leidos .old-price{margin-right: 10px;}
+
+/* puntuar */
+/*.content-rating a{margin-right: 240px;}
+.content-rating img{margin: 5px 0 0;}*/
+
+
+/* comentarios */
+.content-coment p{font-size: 12px;margin-bottom: 10px;}
+.content-coment p span{color:#262626; font-weight: 700;}
+#sendComment input[type='text']{width: 225px; margin-bottom: 8px;}
+#sendComment textarea{width: 385px;}
+#sendComment input[type='submit']{float:right; margin: 10px 0 0;}
+
+/* Bloque Comprar */
+#wrapper-qty{background: #f3f3f3; padding: 20px; margin-bottom: 10px; text-align: center;}
+#wrapper-qty label{color:#262626;}
+#wrapper-qty .price-box{width: 150px; margin: 15px auto 0;}
+#wrapper-qty .price-box .price{font-size: 24px;}
+#wrapper-qty .price-box .old-price{font-size: 18px; margin: 0 10px 0 0;}
+#wrapper-qty .price-box .btn{font-size: 18px; margin: 5px 0 0;}
+
+.btn-checkout{background: #bc050b;font-size: 18px;}
+.btn-checkout:hover{background: #262626;}
+
+/* quien a leido este libro */
+#who-read{background: #f3f3f3; padding: 20px;}
+#who-read  p{color: #262626; text-align: left;}
+
+/*-----------------------
+* Página de Autores
+*-------------------------*/
+.content-letra{
+    float: left;
+    width: 21%;
+    margin: 0 50px 0 0;
+}
+.content-autor{margin:0 0 20px 0;}
+.content-autor img{height:40px;}
+.content-autor li{list-style:none; display:inline;}
+p.letra{font-weight:bold; color:#00A2F3; font-family: 'Noto Sans', sans-serif;letter-spacing: -1px; font-size:30px;}
+
+/*-----------------------
+* COLUMNA izquierda
+*-------------------------*/
+#category-list ul li{line-height: 24px;}
+#category-list ul li a{font-size: 18px;text-decoration: none;color:#262626;}
+#category-list ul li a:hvoer{color: #898686;}
+#category-list ul ul{padding: 0 0 0 10px;}
+#category-list ul ul a{font-size: 16px; color: #898686;}
+.tweet-header h3 a{font-size: 80%;}
+.last-tweets p span{color: #262626; font-size: 85%;}
+/*------------------------
+* FOOTER 
+*-------------------------
+*/
+
+footer h4{color:#17B570; font-size: 24px; line-height: 45px; margin: 0;}
+footer h4 .icon{ background: url(../images/ico-footer.png); height: 45px; width: 36px; display: block; margin-right: 5px;}
+footer p{font-size: 12px;}
+footer li{list-style: none;}
+footer li a{ color:#898686; text-decoration: none; font-family: Arial, Verdana, sans-serif; letter-spacing: normal;}
+
+	/*Redes sociales*/
+#footer-social-wrapper{padding: 10px 0; border-color: #C7C9D0; border-style: solid; border-width: 1px 0;}
+#footer-follow-links a.fb{background-position: left top;}
+#footer-follow-links a.tw{background-position: -34px top;}
+#footer-follow-links a.yt{background-position: -68px top;}
+#footer-follow-links a.go{background-position: right top;}
+#footer-social-wrapper h4.label{float:left; line-height: 28px; margin: 0 10px;}
+#footer-follow-links a{width: 32px; height: 32px; background: url(../images/social.png); background-repeat: no-repeat; display: block; text-indent: -1000em; float: left; opacity: 0.7;}
+#footer-follow-links a:hover{opacity: 1;}
+
+#footer-top-wrapper{padding: 20px 0;}
+#footer-top-wrapper .footer-left{border-right: 1px solid #C7C9D0; padding: 0 25px 0 0; margin: 0 15px 0 0;}
+ .f-nosotros .icon{ background-position: left top;}
+ .f-tienda{margin: 0 25px;}
+ .f-tienda .icon{ background-position: -40px top;}
+ .f-ayuda .icon{ background-position: -80px top;}
+
+		/*Atención al cliente*/
+#cusomter-service{margin-bottom: 10px;}
+#cusomter-service .icon{background-position: right top;}
+#customer-service span{font-weight: 700;}
+
+#newsletter-footer label{color:#17B570; font-size: 24px; font-family: 'Noto Sans', sans-serif;letter-spacing: -1px; margin-right: 15px; }
+#newsletter-footer input[type='text']{width: 160px;}
+#newsletter-footer button{ background: #f3f3f3 url("../images/add.png") no-repeat center top; text-indent: -1000em; width: 20px;}
+#newsletter-footer button:hover{background-position: center bottom;}
+#footer-bottom{border-top: 1px solid #C7C9D0;padding: 3px 0 1px;}
+#footer-links ul,#cusomter-service div,#newsletter-footer{margin: 0 0 0 41px;}
+
+/*
+* Login Form
+*/
+#registrar-form{width: 400px;}
+.new-users, .registered-users{width: 45%; margin-bottom: 20px;}
+.error{font-weight: 700; color:#bc050b; background-color: #F2DEDE; padding: 3px 10px;}
+.successful{font-weight: 700; color:#17B570; background-color: #00F5CC; padding: 3px 10px;}
+
+/*-----------------------
+* Update User Form
+*-------------------------*/
+.update-user{width: 60%;}
+.update-user td{padding-bottom: 10px;}
+
+/*-----------------------
+* Carrito de la compra
+*-------------------------*/
+.totals{width: 25%; margin: 20px 0;}
+#table-cart tfoot td{padding: 25px 0;}
+#table-cart thead{border-bottom: 1px solid #C7C9D0;}
+#table-cart thead th{line-height: 14px;}
+#table-cart tbody td{
+    vertical-align: middle;
+    padding-bottom: 6px;
+    padding-top: 12px;
+}
+
+#shopping-cart-totals-table tfoot .price{font-size: 20px;}
+#shopping-cart-totals-table tfoot td{padding: 5px 0;}
+.totals .btn-checkout{margin: 20px 0;}
+
+
+/*-----------------------
+* Resumen del pedido
+*-------------------------*/
+#resumen-pedido tbody td{vertical-align: middle;}
+#resumen-pedido tbody td input[type=number]{border: none; text-align: center;}

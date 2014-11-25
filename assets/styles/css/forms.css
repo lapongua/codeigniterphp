@@ -1,0 +1,7 @@
+input[type='search'],input[type='text'],input[type='email'],input[type='password'],textarea{ background: #f3f3f3; border:none; padding: 0 10px; color: #8c8c8c;}
+input[type='text'], input[type='search'],input[type='email'],input[type='password'],button{height: 25px;line-height: 25px;}
+textarea{resize: none; font-size: 14px; line-height: 18px; font-family: Arial, Verdana, sans-serif; letter-spacing: normal; padding: 5px 10px;}
+input[type='submit']{font-family: 'Noto Sans', sans-serif;letter-spacing: -1px; border:none;}
+button{border: none;}
+button:hover,input[type='submit']:hover{cursor: pointer;}
+label{font-weight: 700;}

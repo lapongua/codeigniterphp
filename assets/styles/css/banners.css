@@ -1,0 +1,217 @@
+#ad-2 {
+    width: 205px;
+    height: 407px;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+#ad-2 h2 {
+	font-family: 'Bangers', cursive;;
+	color: #17B570;
+	font-size: 40px;
+	line-height: 55px;
+	margin-top: 10px;
+	-webkit-animation: h2Animate 1s 1 ease-in-out;
+	-moz-animation: h2Animate 1s 1 ease-in-out;
+	-o-animation: h2Animate 1s 1 ease-in-out;
+	-ms-animation: h2Animate 1s 1 ease-in-out;
+	animation: h2Animate 1s 1 ease-in-out;
+        border:none;
+}
+
+#ad-2 ul#patin {
+	width: 96px;
+	height: 84px;
+	overflow: visible;
+	z-index: 2;
+	position: absolute;
+	top: 120px;
+	left: 10px;
+	-webkit-animation: patinete 12s 1 ease-in-out;
+	-moz-animation: patinete 12s 1 ease-in-out;
+	-o-animation: patinete 12s 1 ease-in-out;
+	-ms-animation: patinete 12s 1 ease-in-out;
+	animation: patinete 12s 1 ease-in-out;
+        padding: 0 0 0 40px;
+}
+#ad-2 ul#patin li {
+    width: 85px;
+    height: 90px;
+    z-index: 2;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-image: url(../images/ads/patinar.png);
+    list-style: none;
+}
+
+#ad-2 #content {
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	z-index: 4;
+	-webkit-animation: content-in-animation-2 2s 1 ease-in-out;
+	-moz-animation: content-in-animation-2 2s 1 ease-in-out;
+	-o-animation: content-in-animation-2 2s 1 ease-in-out;
+	-ms-animation: content-in-animation-2 2s 1 ease-in-out;
+	animation: content-in-animation-2 2s 1 ease-in-out;
+}
+	#ad-2 #content h3 {
+		color: #fff;
+		font-family: 'Boogaloo', cursive;
+		font-size: 30px;
+		line-height: 32px;
+		text-shadow: 0px 0px 4px #137dd5;
+                border:none;
+                font-weight: 400;
+                margin: 30px 0;
+                padding:0;
+	}
+	#ad-2 #content a:link, #ad-2 #content a:visited {
+		display: inline-block;
+		height: 20px;
+		padding: 15px;
+		font-family: 'Boogaloo', cursive;
+		font-size: 20px;
+		line-height: 20px;
+		color: #17B570;
+		text-shadow: 1px 1px 0px #fff;
+		background-color: #fff;
+		border-radius: 5px;
+		margin: 0 0 20px 0px;
+		box-shadow: 2px 2px 0px #137dd5;
+		border: 1px solid #fff;
+		background-image: linear-gradient(bottom, rgb(238,238,238) 10%, rgb(255,255,255) 55%);
+		background-image: -o-linear-gradient(bottom, rgb(238,238,238) 10%, rgb(255,255,255) 55%);
+		background-image: -moz-linear-gradient(bottom, rgb(238,238,238) 10%, rgb(255,255,255) 55%);
+		background-image: -webkit-linear-gradient(bottom, rgb(238,238,238) 10%, rgb(255,255,255) 55%);
+		background-image: -ms-linear-gradient(bottom, rgb(238,238,238) 10%, rgb(255,255,255) 55%);
+	}
+	#ad-2 #content a:hover, #ad-2 #content a:active {
+		background-image: linear-gradient(bottom, rgb(255,255,255) 10%, rgb(255,255,255) 55%);
+		background-image: -o-linear-gradient(bottom, rgb(255,255,255) 10%, rgb(255,255,255) 55%);
+		background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 10%, rgb(255,255,255) 55%);
+		background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 10%, rgb(255,255,255) 55%);
+		background-image: -ms-linear-gradient(bottom, rgb(255,255,255) 10%, rgb(255,255,255) 55%);
+	}
+        #content{
+            background: #1BA3F7;
+        }
+
+
+/* WebKit Animations */
+
+@-webkit-keyframes h2Animate {
+	0%   {opacity: 0; font-size: 0px;}
+	100%  {opacity: 1; font-size: 40px;}
+}
+@-webkit-keyframes content-in-animation-2 {
+	0%   {opacity: 0;}
+	90%  {opacity: 0;}
+	95%  {opacity: 1;}
+	100% {opacity: 1;}
+}
+
+@-webkit-keyframes patinete {
+        0%{left: -50px;}
+	7%       {left: 0px;}
+	75%      {left: 200px;}
+	75.0001% {left: -50px;}
+	90%      {left: 10px;}
+	100%     {left: 10px;}
+}
+
+/* FireFox Animations */
+
+@-moz-keyframes h2Animate {
+	0%   {opacity: 0; font-size: 0px;}
+	100%  {opacity: 1; font-size: 40px;}
+}
+@-moz-keyframes content-in-animation-2 {
+	0%   {opacity: 0;}
+	90%  {opacity: 0;}
+	95%  {opacity: 1;}
+	100% {opacity: 1;}
+}
+
+@-moz-keyframes patinete {
+	0%{left: -50px;}
+	7%       {left: 0px;}
+	75%      {left: 200px;}
+	75.0001% {left: -50px;}
+	90%      {left: 10px;}
+	100%     {left: 10px;}
+}
+
+/* Opera Animations */
+
+@-o-keyframes h2Animate {
+	0%   {opacity: 0; font-size: 0px;}
+	100%  {opacity: 1; font-size: 40px;}
+}
+@-o-keyframes content-in-animation-2 {
+	0%   {opacity: 0;}
+	90%  {opacity: 0;}
+	95%  {opacity: 1;}
+	100% {opacity: 1;}
+}
+
+@-o-keyframes patinete {
+	0%{left: -50px;}
+	7%       {left: 0px;}
+	75%      {left: 200px;}
+	75.0001% {left: -50px;}
+	90%      {left: 10px;}
+	100%     {left: 10px;}
+}
+
+/* IE Animations */
+
+@-ms-keyframes h2Animate {
+	0%   {opacity: 0; font-size: 0px;}
+	100%  {opacity: 1; font-size: 40px;}
+}
+@-ms-keyframes content-in-animation-2 {
+	0%   {opacity: 0;}
+	90%  {opacity: 0;}
+	95%  {opacity: 1;}
+	100% {opacity: 1;}
+}
+
+@-ms-keyframes patinete {
+	0%{left: -50px;}
+	7%       {left: 0px;}
+	75%      {left: 200px;}
+	75.0001% {left: -50px;}
+	90%      {left: 10px;}
+	100%     {left: 10px;}
+}
+
+/* Animations */
+
+@keyframes h2Animate {
+	0%   {opacity: 0; font-size: 0px;}
+	100%  {opacity: 1; font-size: 40px;}
+}
+@keyframes content-in-animation-2 {
+	0%   {opacity: 0;}
+	90%  {opacity: 0;}
+	95%  {opacity: 1;}
+	100% {opacity: 1;}
+}
+
+@keyframes patinete {
+	0%{left: -50px;}
+	7%       {left: 0px;}
+	75%      {left: 200px;}
+	75.0001% {left: -50px;}
+	90%      {left: 10px;}
+	100%     {left: 10px;}
+}
+
+/* End Ad 2 */
+
+

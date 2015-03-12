@@ -67,8 +67,8 @@ $db['default']['stricton'] = FALSE;
 
 $db['uazon']['hostname'] = 'localhost';
 $db['uazon']['username'] = 'p13lpg';
-$db['uazon']['password'] = '48328029S';
-$db['uazon']['database'] = 'DBp13lpg';
+$db['uazon']['password'] = 'xxxxx';
+$db['uazon']['database'] = 'xxxx';
 $db['uazon']['dbdriver'] = 'mysql';
 $db['uazon']['dbprefix'] = '';
 $db['uazon']['pconnect'] = TRUE;
